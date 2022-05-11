@@ -7,7 +7,7 @@ public class SumOfDigits {
         System.out.print("Enter number : ");
         int number = input.nextInt();
         int sum=0;
-        while(number>1) {
+        while(number>0) {
             int temp= number%10;
             sum =sum + temp;
             number=number/10;
